@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*---- portada  -----*/
+
+main{
+    width: 960px;
+    font-family: Arial;
+}
+
+.portada{
+    height: 525px;
+    background-image: url(./img/portada.png);
+    color: #fff;
+}
+
+.portada h1{
+    text-align: center;
+    padding-top: 53px;
+    font-size: 64px;
+}
+
+.portada .about-min{
+    margin-top: 150px;
+    width: 365px;
+    height: 117px;
+    margin-left: 94px;
+    line-height: 42px;
+    font-weight: 700;
+    background: #7299FE80;
+    border-radius: 10px;
+}
+
+.portada .about-min .content-info{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.portada .about-min .content-info p{
+    font-size: 36px;
+}
+
+/*-------sobre mi-------*/
+
+.gr-pract{
+    height: 424px;
+}
+
+.theme-1{
+    background: #7299FE;
+}
+
+section h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 25px;
+}
+
+.theme-1 h2{
+    color: #1D06A7;
+}
+
+.gr-pract .content-about-me{
+    width: 872px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.gr-pract .content-about-me p{
+   font-size: 14px;
+   line-height: 24px;
+   font-weight: 400;
+   padding-bottom: 25px;
+}
+
+.gr-pract button{
+    width: 187px;
+    height: 62px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.3px;
+    border-radius: 20px;
+    background-color: #D16FFF;
+    border: none;
+    color: #fff;
+    box-shadow: #00000040 0px 4px 4px;
+}
+
+/*-------mis skills-------*/
+
+.theme-2{
+    background: #9022FF;
+}
+
+.theme-2 h2{
+    color: #26CC4B;
+}
+
+.content-skills{
+    width: 840px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-skills .grupo-skills{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.content-skills .grupo-skills .card-skill h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.content-skills .grupo-skills .card-skill .rec-skills{
+    width: 403px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.content-skills .grupo-skills .card-skill .rec-skills .ind-skl{
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 10px;
+}
+
+.content-skills .grupo-skills .card-skill .rec-skills .indicador-1{
+    width: 319px;
+}
+
+.content-skills .grupo-skills .card-skill .rec-skills .indicador-2{
+    width: 64px;
+}
+
+.content-skills .grupo-skills .card-skill .rec-skills .indicador-3{
+    width: 215px;
+}
+
+.content-skills .grupo-skills .card-skill .rec-skills .indicador-4{
+    width: 339px;
+}
+
+.content-skills .grupo-skills .card-skill .rec-skills .indicador-5{
+    width: 363px;
+}
+
+.content-skills .grupo-skills .card-skill .rec-skills .indicador-6{
+    width: 185px;
+}
+
+/*------portafolio------*/
+
+.theme-3{
+    background-color: #FFD233;
+}
+
+.theme-3 h2{
+    color: #00AD84;
+}
+
+.content-img{
+    width: 596px;
+    margin: 0 auto;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content-img .cards-imgs-p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-img .cards-imgs-p img{
+    width: 140px;
+    height: 92px;
+}
+
+/*-------clientes-------*/
+
+.gr-cliente{
+    height: 258px;
+    background-color: #3D4E62;
+}
+
+.gr-cliente h2{
+    color: #ADFF28;
+}
+
+.content-img-c{
+    width: 840px;
+    margin: 0 auto;
+}
+
+.cards-clientes{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-clientes .img-1{
+    width: 178px;
+    height: 69px;
+}
+
+.cards-clientes .img-2{
+    width: 202px;
+    height: 54px;
+}
+
+.cards-clientes .img-3{
+    width: 194px;
+    height: 67px;
+}
+
+/*---contacto----*/
+
+.gr-contacto{
+    height: 578px;
+    background-color: #1687A0;
+}
+
+.gr-contacto h2{
+    color: #FF1B1B;
+}
+
+.gr-contacto .formulario{
+    width: 759px;
+    margin: 0 auto;
+    
+}
+
+.gr-contacto .formulario .str-form-1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    font-size: 14px;
+}
+
+.gr-contacto .formulario .str-form-1 input{
+    width: 363px;
+    height: 59px;
+    padding-left: 10px;
+    color: #7A7A7A;
+}
+
+.gr-contacto .formulario .str-form-2 input{
+    width: 100%;
+    height: 112px;
+    padding-left: 10px;
+    padding-bottom: 60px;
+}
+
+.gr-contacto .formulario .btn-send{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gr-contacto .formulario .btn-send .send{
+    width: 167px;
+    height: 56px;
+    background-color: #233451;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    
+}
